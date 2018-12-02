@@ -16,6 +16,6 @@ swiftlint.lint_files
 swiftlint.lint_files inline_mode: true
 
 xcode_summary.inline_mode = true
-xcode_summary.report 'xcodebuild.json
+xcode_summary.report 'xcodebuild.json'
 
 github.dismiss_out_of_range_messages
