@@ -25,3 +25,6 @@ jira.check(
   report_missing: true,
   skippable: true
 )
+
+commit_lint.check
+commit_lint.check warn: :all

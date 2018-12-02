@@ -6,5 +6,5 @@ gem 'danger-swiftlint'
 gem 'danger-xcode_summary'
 gem 'danger'
 gem 'danger-jira'
-
+gem 'danger-commit_lint'
 # gem "rails"
