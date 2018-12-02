@@ -23,6 +23,8 @@ GEM
       no_proxy_fix
       octokit (~> 4.7)
       terminal-table (~> 1)
+    danger-jira (0.5.1)
+      danger-plugin-api (~> 1.0)
     danger-plugin-api (1.0.0)
       danger (> 2.0)
     danger-swiftlint (0.18.0)
@@ -58,6 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   danger
+  danger-jira
   danger-swiftlint
   danger-xcode_summary
 
