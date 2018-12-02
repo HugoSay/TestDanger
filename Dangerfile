@@ -11,7 +11,8 @@ warn("Big PR") if git.lines_of_code > 500
 swiftlint.lint_files
 swiftlint.lint_files inline_mode: true
 
+xcode_summary.ignored_files = 'Pods/**'
 xcode_summary.inline_mode = true
-xcode_summary.report 'xcodebuild.json'
+
 
 github.dismiss_out_of_range_messages
