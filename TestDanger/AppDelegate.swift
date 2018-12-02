@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         #warning("add warning")
+
+
+
+
+        let tutu = "qewr"
+
+        var test = 123
+
+        
         return true
     }
 
