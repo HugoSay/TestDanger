@@ -15,4 +15,8 @@ fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 swiftlint.lint_files
 swiftlint.lint_files inline_mode: true
 
+# Comment on each lines
+xcode_summary.inline_mode = true
+xcode_summary.report 'xcodebuild.json'
+
 github.dismiss_out_of_range_messages
