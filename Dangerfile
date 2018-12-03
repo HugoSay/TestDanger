@@ -5,7 +5,6 @@ warn("PR is classed as Work in Progress") if github.pr_title.include? "[WIP]"
 warn("Big PR") if git.lines_of_code > 500
 
 # Runs swiftlint on the project and adds comment to the PR if any rule is broken
-swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
 
 # Adds comments to the PR if it creates any waring
