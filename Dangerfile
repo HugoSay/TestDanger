@@ -7,7 +7,7 @@ warn("Big PR") if git.lines_of_code > 500
 # Runs swiftlint on the project and adds comment to the PR if any rule is broken
 swiftlint.lint_files inline_mode: true
 
-# Adds comments to the PR if it creates any waring
+# Adds comments to the PR if it creates any warning
 xcode_summary.ignored_files = 'Pods/**'
 xcode_summary.inline_mode = true
 xcode_summary.report 'errors.json'
